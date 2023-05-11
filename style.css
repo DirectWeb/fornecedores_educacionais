@@ -2,6 +2,11 @@ header .navbar-brand {
     margin: 20px;
 }
 
+.dropdown:hover > .dropdown-menu{
+    display: block;
+    width: 500px;
+}
+
 #buscar {
     margin: 20px;
 }
@@ -55,6 +60,7 @@ button .material-symbols-outlined {
 .categories button:hover {
     font-weight: 500;
 }
+
 
 #destaques {
     padding: 100px;
