@@ -3,9 +3,15 @@ header .navbar-brand {
 }
 
 .dropdown:hover > .dropdown-menu{
-    display: block;
-    width: 500px;
+    display:table;
+    min-width: 600px;
 }
+
+.dropdown:hover > .dropdown-menu{
+    display:table;
+    min-width: 600px;
+}
+
 
 #buscar {
     margin: 20px;
