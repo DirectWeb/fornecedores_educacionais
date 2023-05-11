@@ -9,14 +9,8 @@ header .navbar-brand {
 
 }
 
-.title {
+#invitation {
     padding: 50px;
-}
-
-.title h1 {
-    text-align: center;
-    font-family: 'Poppins';
-    font-weight: 600;
 }
 
 .categories #categories-grid {
@@ -25,7 +19,7 @@ header .navbar-brand {
 
 button {
     font-family: 'Poppins';
-    font-weight: 500;
+    font-weight: 400;
     font-size: 18px;
     text-align: left;
     color: #000000;
@@ -46,10 +40,15 @@ button .material-symbols-outlined {
 }
 
 .categories button:hover {
-    color: orangered;
+    font-weight: 600;
 }
 
-#destaques a.destaque{
+#destaques{
+    padding: 100px;
+}
+
+
+#destaques a{
     display: block;
     background-color: rgb(233, 233, 233);
     border-radius: 5px;
@@ -68,18 +67,19 @@ button .material-symbols-outlined {
 
 }
 
-#destaques a.destaque:hover{
+#destaques a:hover{
     box-shadow: 0px 0px 10px 0px #00000059;
     transform: scale(1.02);
 }
 
-#destaques a.destaque .img-container{
+#destaques a .img-container{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 200px;
 }
 
-#destaques a.destaque .img-container img{
+#destaques a .img-container img{
     max-height: 220px;
+    border-radius: 5px 5px 0px 0px;
 }
