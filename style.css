@@ -2,7 +2,7 @@ header .navbar-brand {
     margin: 20px;
 }
 
-#buscar{
+#buscar {
     margin: 20px;
 }
 
@@ -11,11 +11,11 @@ header .navbar-brand {
         'FILL' 0,
         'wght' 400,
         'GRAD' 0,
-        'opsz' 40;
+        'opsz' 40 !important;
 }
 
 .categories {
-    background-image: linear-gradient(to bottom, rgb(233, 233, 233) , rgb(255, 255, 255));
+    background-image: linear-gradient(to bottom, rgb(233, 233, 233), rgb(255, 255, 255));
 }
 
 #invitation {
@@ -52,15 +52,15 @@ button .material-symbols-outlined {
     font-weight: 600;
 }
 
-#destaques{
+#destaques {
     padding: 100px;
 }
 
-#subtitulo-destaques{
+#subtitulo-destaques {
     font-weight: 400;
 }
 
-#destaques a{
+#destaques a {
     display: block;
     background-color: rgb(233, 233, 233);
     border-radius: 5px;
@@ -68,30 +68,31 @@ button .material-symbols-outlined {
     transition: all ease-out 0.2s;
 }
 
-#destaques h5{
+#destaques h5 {
     margin-top: 20px;
     margin-left: 20px;
     color: #000000;
 }
-#destaques p{
+
+#destaques p {
     padding: 20px;
     color: dimgray;
 
 }
 
-#destaques a:hover{
+#destaques a:hover {
     box-shadow: 0px 0px 10px 0px #00000059;
     transform: scale(1.02);
 }
 
-#destaques a .img-container{
+#destaques a .img-container {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 200px;
 }
 
-#destaques a .img-container img{
+#destaques a .img-container img {
     max-height: 220px;
     border-radius: 5px 5px 0px 0px;
 }
