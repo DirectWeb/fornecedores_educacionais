@@ -14,9 +14,6 @@ header .navbar-brand {
         'opsz' 40 !important;
 }
 
-.categories {
-    background-image: linear-gradient(to bottom, rgb(233, 233, 233), rgb(255, 255, 255));
-}
 
 #invitation {
     padding: 50px;
@@ -24,6 +21,13 @@ header .navbar-brand {
 
 .categories #categories-grid {
     padding: 50px;
+}
+
+.dropdown-item-text{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 10px;
 }
 
 button {
@@ -49,7 +53,7 @@ button .material-symbols-outlined {
 }
 
 .categories button:hover {
-    font-weight: 600;
+    font-weight: 500;
 }
 
 #destaques {
