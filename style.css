@@ -1,12 +1,13 @@
 header .navbar-brand {
-    font-family: 'Source Serif Pro', serif;
-    font-weight: 700;
+    margin: 20px;
+}
+
+#buscar{
     margin: 20px;
 }
 
 .categories {
-    background-color: rgb(233, 233, 233);
-
+    background-image: linear-gradient(to bottom, rgb(233, 233, 233) , rgb(255, 255, 255));
 }
 
 #invitation {
@@ -22,7 +23,7 @@ button {
     font-weight: 400;
     font-size: 18px;
     text-align: left;
-    color: #000000;
+    color: #000;
     width: 200px;
     border: none;
     background: transparent;
@@ -31,7 +32,7 @@ button {
 }
 
 button .material-symbols-outlined {
-    color: #000000;
+    color: #000;
     font-size: 30px;
     width: 50px;
     padding: 15px;
@@ -47,6 +48,9 @@ button .material-symbols-outlined {
     padding: 100px;
 }
 
+#subtitulo-destaques{
+    font-weight: 400;
+}
 
 #destaques a{
     display: block;
