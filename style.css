@@ -2,17 +2,6 @@ header .navbar-brand {
     margin: 20px;
 }
 
-.dropdown:hover > .dropdown-menu{
-    display:table;
-    min-width: 600px;
-}
-
-.dropdown:hover > .dropdown-menu{
-    display:table;
-    min-width: 600px;
-}
-
-
 #buscar {
     margin: 20px;
 }
