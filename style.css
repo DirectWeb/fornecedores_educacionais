@@ -9,14 +9,25 @@ header .navbar-brand {
 .material-symbols-outlined {
     font-variation-settings:
         'FILL' 0,
-        'wght' 400,
+        'wght' 200,
         'GRAD' 0,
-        'opsz' 40 !important;
+        'opsz' 40;
 }
 
-
+.banner{
+    position: relative;
+    background: #b4b4b4;
+    min-height: 60vh;
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0 200px;
+}
 #invitation {
     padding: 50px;
+}
+
+.categories{
+    background-color: #0D6EFD;
 }
 
 .categories #categories-grid {
@@ -32,10 +43,10 @@ header .navbar-brand {
 
 button {
     font-family: 'Poppins';
-    font-weight: 400;
+    font-weight: 300;
     font-size: 18px;
     text-align: left;
-    color: #000;
+    color: #ffffff;
     width: 200px;
     border: none;
     background: transparent;
@@ -44,7 +55,7 @@ button {
 }
 
 button .material-symbols-outlined {
-    color: #000;
+    color: #ffffff;
     font-size: 30px;
     width: 50px;
     padding: 15px;
@@ -53,7 +64,7 @@ button .material-symbols-outlined {
 }
 
 .categories button:hover {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 
