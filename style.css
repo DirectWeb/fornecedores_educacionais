@@ -1,8 +1,8 @@
 #menu-categorias{
+    display: none;
     transition-duration: 2s;
     position: absolute;
     background-color: white;
     width: 100%;
-    display: none;
     }
     
