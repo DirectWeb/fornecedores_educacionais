@@ -10,3 +10,9 @@ button.addEventListener("click", function() {
     }
 });
 
+document.addEventListener('mouseup', function(e) {
+    var container = document.getElementById('menu-categorias');
+    if (!container.contains(e.target)) {
+        container.style.display = 'none';
+    }
+});
